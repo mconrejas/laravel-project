@@ -1,6 +1,3 @@
-# Buzzex IO
-Exchange The Future
-
 ## Server Requirements
 
 - PHP >= 7.1.3
