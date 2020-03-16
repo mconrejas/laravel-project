@@ -1,0 +1,9 @@
+.error-holder {
+    margin-bottom: 10px;
+    margin-top: -15px;
+
+    .min-buy-error,
+    .min-sell-error {
+        color: red;
+    }
+}

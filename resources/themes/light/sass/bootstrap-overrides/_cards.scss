@@ -1,0 +1,59 @@
+.my-cards {
+    .card {
+        border: 0;
+        margin-bottom: 20px;
+        background-color: $buzzex-panel-background-color;
+        border-radius: 4px;
+    }
+}
+
+
+.card-select-image,
+.card-select-image-back,
+.card-select-image-selfie,
+.card-verification-holder {
+    height: 225px;
+    width: 100%;
+    display: block;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    background: #a0a0a0;
+    color: #000;
+    background-size: cover;
+
+    p {
+        margin: auto;
+        /* Important */
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
+
+.card-verification-holder {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 14px 0 rgba(0, 0, 0, 0.08);
+    height: 80px !important;
+}
+
+.card-img-top {
+    height: 225px;
+    width: 100%;
+    display: block;
+}
+
+.card {
+    background: $buzzex-panel-background-color;
+
+    .btn-outline-dark {
+        border-color: $buzzex-border-color;
+
+        &:hover {
+            color: $buzzex-content-wrapper-text-color;
+        }
+    }
+}
+
+.show>.btn-outline-dark.dropdown-toggle {
+    color: $buzzex-content-wrapper-text-color;
+}

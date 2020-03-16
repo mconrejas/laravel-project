@@ -1,0 +1,30 @@
+.slider {
+    &.slider-horizontal{
+        margin: 0px 6px;
+        width: calc(100% - 12px);
+    }
+  
+    .tooltip.tooltip-main.in,
+    .tooltip.tooltip-main.in { 
+        opacity: 1 !important; 
+    }
+    
+    .slider-handle , 
+    .slider-tick.in-selection {
+        background-color: #1ee2ba;
+        background-image: linear-gradient(to bottom, #1fdfbe 0%, #89ebde 100%);
+    }
+
+    .slider-selection.tick-slider-selection {
+        background-image: linear-gradient(to bottom, #b6f0eb 0%, #38e1c6 100%);
+    }
+    
+    .slider-tick-label-container .slider-tick-label {
+        font-size: 0.75rem;
+    }
+
+    .slider-tick {
+        opacity: 1;
+        border: 1px solid #e7ebee;
+    }
+}

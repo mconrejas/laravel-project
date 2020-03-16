@@ -1,0 +1,106 @@
+{
+	"facebook" : {
+		"label" : "Facebook",
+		"url" : "https://www.facebook.com/Buzzexio"
+	},
+	"twitter" : {
+		"label" : "Twitter",
+		"url" : "https://twitter.com/Buzzexio"
+	},
+	"telegram" : {
+		"label" : "Telegram",
+		"url" : "https://t.me/Buzzexio_Chat"
+	},
+	"linkedin" : {
+		"label" : "LinkedIn",
+		"url" : "https://www.linkedin.com/in/buzzexio/"
+	},
+	"whitepaper" : {
+		"label" : "Whitepaper",
+		"url" : "https://buzzex.io/Buzzex-Whitepaper.pdf"
+	},
+	"announcement" : {
+		"label" : "Announcement",
+		"url"	: "https://support.buzzex.io/hc/en-us/categories/360000809774-Announcements"
+	},
+	"buzzex_ambassador" : {
+		"label" : "Buzzex Ambassador",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008857373-How-To-Become-A-Buzzex-Global-Ambassador"
+	},
+	"coin_partner_program":{
+		"label" : "Coin Partner Program",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008707474-Coin-Developer-Partner-Program"
+	},
+	"referral_program":{
+		"label" : "Referral Program",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008707894-Buzzex-Referral-Program"
+	},
+	"intro_video":{
+		"label" : "Intro Video",
+		"url" : "https://youtu.be/EnZ1Zc0o6cg"
+	},
+	"mining":{
+		"label" : "Mining",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008857553-How-To-Mine-Buzzex-Coins"
+	},
+	"explorer":{
+		"label" : "Explorer",
+		"url" : "https://explorer.buzzex.io/"
+	},
+	"terms_of_service":{
+		"label" : "Terms of Service",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360009204954-Terms-And-Conditions"
+	},
+	"privacy_policy":{
+		"label" : "Privacy Policy",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360009332333-Privacy-Policy"
+	},
+	"fees":{
+		"label" : "Fees",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008709594-What-Is-The-Fee-Structure-On-Buzzex"
+	},
+	"latest_news":{
+		"label" : "Latest News",
+		"url" : "https://support.buzzex.io/hc/en-us/sections/360001849293-Latest-News"
+	},
+	"help_desk":{
+		"label" : "Help Desk",
+		"url" : "https://support.buzzex.io/hc/en-us"
+	},
+	"faqs":{
+		"label" : "FAQ's",
+		"url" : "https://support.buzzex.io/hc/en-us/categories/360000823193-FAQ"
+	},
+	"global_ambassador":{
+		"label" : "Global Ambassador",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008857373-How-To-Become-A-Buzzex-Global-Ambassador"
+	},
+	"bounties":{
+		"label" : "Bounties",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008857673-Buzzex-Bounty-Campaigns"
+	},
+	"api_competition":{
+		"label" : "API Competition",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008709254-Buzzex-API-Competition"
+	},
+	"source_code" : {
+		"label" :  "Source Code",
+		"url" : "https://github.com/BuzzexCoin/core"
+	},
+	"vote_rules" : {
+		"label" : "Vote Rules",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360010254793-Coin-Voting-Rules"
+	},
+	"global_order_book" : {
+		"label" : "Global Order Book",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360020439594-What-Is-The-Buzzex-Global-Order-Book"
+	},
+	"arbitrage_plugin" : {
+		"label" : "Arbitrage Plugin",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360020460774-Buzzex-Arbitrage-Plugin"
+	},
+	"trading_competition" : {
+		"label" : "Trading Competition",
+		"url" : "https://support.buzzex.io/hc/en-us/articles/360008707474"
+	}
+}

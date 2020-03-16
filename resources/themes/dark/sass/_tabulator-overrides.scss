@@ -1,0 +1,131 @@
+.tabulator {
+    .tabulator-header {
+        border-top: none;
+        border-bottom: none;
+        background-color: $buzex-tabular-header-bg-color;
+
+        .tabulator-col {
+            background-color: $buzex-tabular-header-bg-color;
+
+            &[aria-sort="asc"] {
+                .tabulator-arrow {
+                    border-left-width: 4px !important;
+                    border-left-style: solid !important;
+                    border-left-color: transparent !important;
+                    border-right-width: 4px !important;
+                    border-right-style: solid !important;
+                    border-right-color: transparent !important;
+                    border-bottom-width: 4px !important;
+                    border-bottom-style: solid !important;
+                    border-bottom-color: $buzzex-tabular-border-color !important;
+                }
+            }
+
+            &[aria-sort="desc"] {
+                .tabulator-arrow {
+                    border-left-width: 4px !important;
+                    border-left-style: solid !important;
+                    border-left-color: transparent !important;
+                    border-right-width: 4px !important;
+                    border-right-style: solid !important;
+                    border-right-color: transparent !important;
+                    border-top-width: 4px !important;
+                    border-top-style: solid !important;
+                    border-top-color: $buzzex-tabular-border-color !important;
+                }
+            }
+
+
+            .tabulator-col-title {
+                font-weight: normal;
+                font-size: 0.8125rem;
+                color: $buzzex-content-wrapper-text-color;
+            }
+
+            &:hover {
+                background-color: $buzex-tabular-header-bg-color !important;
+            }
+
+            &[aria-sort="none"] {
+                color: $buzzex-tabular-border-color;
+
+                .tabulator-arrow {
+                    border-left: 4px solid transparent !important;
+                    border-right: 4px solid transparent !important;
+                    border-bottom: 4px solid $buzzex-content-wrapper-text-color !important;
+                }
+            }
+        }
+    }
+
+    .tabulator-row {
+        font-size: 0.8125rem;
+        border-color: $buzzex-background-color;
+
+        &:hover {
+            cursor: pointer;
+            color: $buzzex-tabular-border-color;
+        }
+
+        .tabulator-cell {
+            font-size: 0.8125rem;
+            font-weight: 100;
+        }
+
+        &.active {
+            border-left: 5px solid $buzzex-tabular-active-border-left-color !important;
+
+            .tabulator-cell {
+                &:first-child {
+                    margin-left: -5px !important;
+                }
+            }
+        }
+    }
+
+    .tabulator-tableHolder {
+        overflow-x: hidden !important;
+    }
+
+    .tr-progress {
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .tr-progress {
+        &.tr-progress-ask {
+            background-image: linear-gradient(90deg, $buzzex-tabular-progress-ask-color, $buzzex-tabular-progress-ask-color);
+        }
+
+        &.tr-progress-bid {
+            background-image: linear-gradient(90deg, $buzzex-tabular-progress-bid-color, $buzzex-tabular-progress-bid-color);
+        }
+    }
+
+    .tabulator-footer {
+        .tabulator-page {
+            color: #11d4c3;
+
+            &.active {
+                border-color: #1adebd;
+                background-color: #1adebd;
+            }
+        }
+    }
+}
+
+#table-trade-ask {
+    .tabulator-row {
+        .tabulator-cell:first-child {
+            color: #ff2100;
+        }
+    }
+}
+
+#table-trade-bid {
+    .tabulator-row {
+        .tabulator-cell:first-child {
+            color: #00df35;
+        }
+    }
+}

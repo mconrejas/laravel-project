@@ -1,0 +1,237 @@
+{
+    "menus": [
+    {
+        "section": "General",
+        "roles": "super-admin|admin",
+        "items": [
+        {
+            "title": "Dashboard",
+            "icon": "fa-dashboard",
+            "url": "/admin",
+            "roles": "super-admin|admin",
+            "submenu": []
+        },
+        {
+            "title": "Exchange",
+            "icon": "fa-exchange",
+            "url": "",
+            "roles": "super-admin|admin",
+            "submenu": [
+            {
+                "title": "Exchange Item",
+                "icon": "fa-bitcoin",
+                "url": "/admin/exchange-items",
+                "roles": "super-admin|admin"
+            },
+            {
+                "title": "Exchange Pair",
+                "icon": "fa-exchange",
+                "url": "/admin/exchange-pairs",
+                "roles": "super-admin|admin"
+            },
+            {
+                "title": "Base Markets",
+                "icon": "fa-line-chart",
+                "url": "/admin/exchange/markets/bases/select",
+                "roles": "super-admin|admin"
+            }]
+        },
+        {
+            "title": "Wallets",
+            "icon": "fa-google-wallet",
+            "url": "",
+            "roles": "super-admin|admin",
+            "submenu": [
+            {
+                "title": "Internal Balances",
+                "icon": "fa-download",
+                "url": "/admin/balances",
+                "roles": "super-admin",
+                "submenu": []
+            },
+            {
+                "title": "External Balances",
+                "icon": "fa-download",
+                "url": "/admin/balances/external",
+                "roles": "super-admin",
+                "submenu": []
+            },
+            {
+                "title": "Internal History",
+                "icon": "fa-history",
+                "url": "/admin/history/item/all",
+                "roles": "super-admin",
+                "submenu": []
+            },
+            {
+                "title": "External History",
+                "icon": "fa-history",
+                "url": "/admin/history-external/item/all",
+                "roles": "super-admin",
+                "submenu": []
+            },
+            {
+                "title": "Internal Withdrawals",
+                "icon": "fa-download",
+                "url": "/admin/withdrawals",
+                "roles": "super-admin|admin",
+                "submenu": []
+            },
+            {
+                "title": "External Withdrawals",
+                "icon": "fa-download",
+                "url": "/admin/withdrawals/external",
+                "roles": "super-admin|admin",
+                "submenu": []
+            },
+            {
+                "title": "User Deposit Requests",
+                "icon": "fa-random",
+                "url": "/admin/user-requests/deposits",
+                "roles": "super-admin|admin",
+                "submenu": []
+            }]
+        },
+        {
+            "title": "Events",
+            "icon": "fa-star text-warning",
+            "roles": "super-admin|admin|support",
+            "submenu": [
+            {
+                "title": "Total Trades",
+                "icon": "fa-gift",
+                "url": "/admin/events/total-trades",
+                "roles": "super-admin|admin|support"
+            },
+            {
+                "title": "Coin Competition",
+                "icon": "fa-list",
+                "url": "/admin/project/competition",
+                "roles": "super-admin|admin|support"
+            }]
+        },
+        {
+            "title": "Coin Projects",
+            "icon": "fa-database",
+            "roles": "super-admin|admin|support",
+            "submenu": [
+            {
+                "title": "For review",
+                "icon": "fa-warning",
+                "url": "/admin/project/pending",
+                "roles": "super-admin|admin|support"
+            },
+            {
+                "title": "For voting",
+                "icon": "fa-arrow-up",
+                "url": "/admin/project/votes",
+                "roles": "super-admin|admin|support"
+            },
+            {
+                "title": "To be listed",
+                "icon": "fa-list",
+                "url": "/admin/project/to-be-listed",
+                "roles": "super-admin|admin|support"
+            }]
+        },
+        {
+            "title": "Settings",
+            "icon": "fa-cogs",
+            "roles": "super-admin|admin|support",
+            "submenu": [
+            {
+                "title": "Parameters",
+                "icon": "fa-cog",
+                "url": "/admin/parameters",
+                "roles": "super-admin|admin",
+                "submenu": []
+            },
+            {
+                "title": "API Settings",
+                "icon": "fa-cogs",
+                "url": "/admin/exchange/settings/api",
+                "roles": "super-admin|admin"
+            },
+            {
+                "title": "News",
+                "icon": "fa-newspaper-o",
+                "url": "/admin/news",
+                "roles": "super-admin|admin|support",
+                "submenu": []
+            },
+            {
+                "title": "Activity Logs",
+                "icon": "fa-archive",
+                "url": "/admin/activitylogs",
+                "roles": "super-admin",
+                "submenu": []
+            },
+            {
+                "title": "About",
+                "icon": "fa-info-circle",
+                "url": "/admin/about",
+                "roles": "super-admin|admin|support",
+                "submenu": []
+            }]
+        }]
+    },
+    {
+        "section": "Account Management",
+        "roles": "super-admin|support",
+        "items": [
+        {
+            "title": "Users",
+            "icon": "fa-users",
+            "url": "/admin/users",
+            "roles": "super-admin",
+            "submenu": []
+        },
+        {
+            "title": "Know Your Customer",
+            "icon": "fa-vcard-o",
+            "roles": "super-admin|support",
+            "submenu": [
+            {
+                "title": "Pending",
+                "icon": "fa-list",
+                "url": "/admin/kyc/list/pending/all",
+                "roles": "super-admin|support",
+                "submenu": []
+            },
+            {
+                "title": "Approved",
+                "icon": "fa-thumbs-up",
+                "url": "/admin/kyc/list/approved/all",
+                "roles": "super-admin|support",
+                "submenu": []
+            },
+            {
+                "title": "Rejected",
+                "icon": "fa-thumbs-down",
+                "url": "/admin/kyc/list/rejected/all",
+                "roles": "super-admin|support",
+                "submenu": []
+            }]
+        },
+        {
+            "title": "Roles and Permissions",
+            "icon": "fa-universal-access",
+            "roles": "super-admin",
+            "submenu": [
+            {
+                "title": "Roles",
+                "icon": "fa-user-md",
+                "url": "/admin/roles",
+                "roles": "super-admin",
+                "submenu": []
+            },
+            {
+                "title": "Permissions",
+                "icon": "fa-edit",
+                "url": "/admin/permissions",
+                "roles": "super-admin",
+                "submenu": []
+            }]
+        }]
+    }]
+}

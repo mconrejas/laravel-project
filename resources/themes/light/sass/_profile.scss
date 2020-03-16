@@ -1,0 +1,64 @@
+.crop-container,
+.profile-picture-container {
+    width: 150px;
+    height: 150px;
+}
+
+.crop-container {
+    display: none;
+}
+
+.crop-container,
+.profile-picture-container {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.crop-container {
+    overflow-x: hidden;
+    overflow: visible;
+}
+
+.profile-picture-container img {
+    width: 100%;
+}
+
+.crop-container .profile-picture-replacement-icon {
+    z-index: 2000;
+}
+
+.crop-container .profile-picture-replacement-icon,
+.profile-picture-container .profile-picture-replacement-icon {
+    position: absolute;
+    opacity: 0;
+    top: 45px;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px;
+    clear: both;
+}
+
+.crop-container .croppie-container {
+    position: absolute;
+    top: 0;
+}
+
+.profile-picture-replacement-icon .fa {
+    padding: 10px;
+}
+
+.profile-picture .profile-picture-replacement {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+.avatar-picture {
+    width: 25px;
+    height: auto;
+    margin-right: 2px;
+}

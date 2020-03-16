@@ -1,0 +1,8 @@
+*
+!public/
+!addresses/
+!.gitignore
+!continents.json
+!geoip.mmdb
+!LICENSE.txt
+!README.txt

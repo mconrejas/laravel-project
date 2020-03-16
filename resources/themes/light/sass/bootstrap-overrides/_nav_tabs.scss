@@ -1,0 +1,19 @@
+.card-header {
+    border-bottom: 1px solid $buzzex-border-color;
+}
+
+.nav-tabs {
+    .nav-item {
+        .nav-link {
+            color: $buzzex-nav-link;
+
+            &.active,
+            &:hover {
+                background-color: $buzzex-border-color;
+                color: $buzzex-moz-selection-color;
+                border-color: $buzzex-border-color;
+            }
+
+        }
+    }
+}

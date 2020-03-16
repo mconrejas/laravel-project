@@ -1,0 +1,35 @@
+/**
+* Import here from node modules prepend with ~ then foldername
+*/
+
+/* Bootstrap */
+@import '~bootstrap/scss/bootstrap';
+
+@import "bootstrap-overrides/bootstrap-overrides";
+
+/* Fonts Awesome*/
+@import "~font-awesome/scss/font-awesome.scss";
+
+/* tabulator */
+@import '~tabulator-tables/dist/css/bootstrap/tabulator_bootstrap4.css';
+
+/* bootstrap-slider */
+@import "~bootstrap-slider/dist/css/bootstrap-slider.css";
+
+/* Nprogress*/
+@import "~nprogress/nprogress.css";
+
+/* password strenght meter*/
+@import "~password-strength-meter/dist/password.min.css";
+
+/* datepicker*/
+@import "~@chenfengyuan/datepicker/dist/datepicker.css";
+
+/* Nprogress*/
+@import "~sweetalert2/dist/sweetalert2.css";
+
+/* cropper*/
+@import "~croppie/croppie.css";
+
+/* izitoast */
+@import "~izitoast/dist/css/iziToast.css";

@@ -1,0 +1,44 @@
+.current-pair-info {
+    .lead {
+        &.pair-name {
+            margin-top: 10px;
+        }
+
+        &:nth-child(1) {
+            font-size: 0.9375rem;
+            margin-top: 10px;
+        }
+    }
+
+    .key-value {
+        font-size: 0.875rem;
+
+        small {
+            /*font-size: 0.75rem;*/
+        }
+        .col-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .current-pair-info {
+        .key-value {
+            small {
+                font-size: 0.875rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .current-pair-info {
+        .key-value {
+            small {
+                font-size: 0.875rem;
+            }
+        }
+    }
+}

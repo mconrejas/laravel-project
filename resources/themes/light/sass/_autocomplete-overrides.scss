@@ -1,0 +1,32 @@
+.record-autocomplete.ui-menu.ui-widget.ui-widget-content {
+    width: 270px !important;
+}
+
+.left-market-autocomplete.ui-menu.ui-widget.ui-widget-content {
+    width: 300px;
+}
+
+.ui-menu.ui-widget.ui-widget-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 300px;
+    padding: 0px;
+    background: #f8f9fa;
+    border: 1px solid #7e7777cc;
+    list-style: none;
+}
+
+.ui-menu.ui-widget.ui-widget-content .ui-menu-item {
+    padding: 3px 10px;
+    color: gray;
+}
+
+.ui-menu.ui-widget.ui-widget-content .ui-menu-item:hover {
+    cursor: pointer;
+    background-image: linear-gradient(270deg, #22e6b8, #00c1ce);
+    color: #fff;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}

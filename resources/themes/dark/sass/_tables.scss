@@ -1,0 +1,22 @@
+.table-compressed th {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.table-compressed tbody>tr {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.table-compressed tbody>tr>td {
+    padding: 5px;
+}
+
+.table {
+    background: $buzzex-panel-background-color;
+    color: $buzzex-header-bottom-no-active-color;
+
+    &.border {
+        border: none !important;
+    }
+}

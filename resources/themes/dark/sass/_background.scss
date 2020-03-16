@@ -1,0 +1,23 @@
+.bg-transparent {
+    background: transparent !important;
+}
+
+.bg-buzzex {
+    background-image: linear-gradient(270deg, #22e6b8, #00c1ce);
+}
+
+.unlogin-mask,
+.exchange-load-mask {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(23, 35, 48, .9);
+    font-size: 22px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}

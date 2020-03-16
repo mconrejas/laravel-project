@@ -1,0 +1,40 @@
+/**
+* Import here from node modules prepend with ~ then foldername
+*/
+
+/* Bootstrap */
+@import '~bootstrap/scss/bootstrap';
+
+/* Fonts Awesome*/
+@import "~font-awesome/scss/font-awesome.scss";
+
+/* tabulator */
+@import '~tabulator-tables/dist/css/bootstrap/tabulator_bootstrap4.css';
+
+/* sweetalert*/
+@import "~sweetalert2/dist/sweetalert2.css";
+
+/* sidebar*/
+@import "~malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+@import "sidebar.scss";
+@import "sidebar-themes.scss";
+
+/* select2*/
+@import "~select2/dist/css/select2.css";
+
+/* cropper*/
+@import "~croppie/croppie.css";
+
+@import "_variables.scss";
+
+@import "custom.scss";
+
+@import "_alert.scss";
+
+@import "_searchbox.scss";
+
+@import "_tabulator_override.scss";
+
+@import "_switch.scss";
+
+@import "_buttons.scss";

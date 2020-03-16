@@ -1,0 +1,50 @@
+.tabulator {
+    .tabulator-header {
+        .tabulator-col.tabulator-sortable[aria-sort="none"] {
+            .tabulator-col-content {
+                .tabulator-arrow {
+                    border-bottom: 6px solid #17dabf;
+                }
+            }
+        }
+
+        .tabulator-col-title {
+            font-size: 0.7rem;
+            line-height: 1.5rem;
+            font-weight: bold;
+        }
+    }
+
+    .tabulator-footer {
+        .tabulator-page {
+            color: #11d4c3;
+
+            &.active {
+                border-color: #1adebd;
+                background-color: #1adebd;
+            }
+        }
+    }
+
+    .tabulator-cell {
+        font-size: 0.8125rem;
+        color: #6c757d;
+    }
+}
+
+.pagination-wrapper {
+    .page-item {
+        .page-link {
+            color: #08c9c9;
+        }
+
+        &.active {
+            .page-link {
+                z-index: 1;
+                color: #fff;
+                background-color: #08c9c9;
+                border-color: #10c6b9;
+            }
+        }
+    }
+}

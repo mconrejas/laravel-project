@@ -1,0 +1,21 @@
+.admin {
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100)) repeat scroll 0% 0%;
+}
+
+.admin .card, .admin .btn, .admin .form-control {
+	border-radius : 0px;
+}
+
+.admin .table.tabulator {
+	border: 1px solid #e8e8e8;
+}
+
+.page-content .card > .card-body {
+	background : #f3f3f3;
+}
+
+.iziToast-wrapper .iziToast-cover {
+    margin-left : 15px ;
+    width: 40px !important;
+    background-color: transparent;
+}
