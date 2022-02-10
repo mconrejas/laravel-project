@@ -54,7 +54,7 @@
         "mysql": "^2.16.0",
         "node-artisan": "0.0.1",
         "node-cmd": "^3.0.0",
-        "node-sass": "^4.10.0",
+        "node-sass": "^7.0.0",
         "nprogress": "^0.2.0",
         "password-strength-meter": "^1.2.1",
         "pretty-checkbox": "^3.0.3",
