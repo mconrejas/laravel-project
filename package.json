@@ -17,7 +17,7 @@
         "cross-env": "^5.1",
         "curl": "^0.1.4",
         "jquery": "^3.3.1",
-        "jsdom": "^13.1.0",
+        "jsdom": "^16.5.0",
         "laravel-mix": "^4.0.15",
         "laravel-mix-filename-versioning": "^1.0.4",
         "lodash": "^4.17.11",
