@@ -16,7 +16,7 @@
         "bootstrap": "^4.2.1",
         "cross-env": "^5.1",
         "curl": "^0.1.4",
-        "jquery": "^3.3.1",
+        "jquery": "^3.5.0",
         "jsdom": "^13.1.0",
         "laravel-mix": "^4.0.15",
         "laravel-mix-filename-versioning": "^1.0.4",
